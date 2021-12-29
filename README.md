@@ -5,11 +5,15 @@ This plugin lets you get the Current SDK version for android. It includes all ve
 ![Pub Version](https://img.shields.io/pub/v/sdk_int) 
 ![License](https://img.shields.io/github/license/TamilKannanCV-personal/sdk_int)
 
+---
+
 ### Implementation
 `SDKInt.currentSDKVersion` is a `Future<int>` which returns the current SDK version of the OS
 
 #### Android Implementation
 `Build.VERSION.SDK_INT` is used to get the current SDK version
+
+---
 
 ### Example
 ```dart
@@ -26,7 +30,7 @@ FutureBuilder(
           },
         );
 ```
-
+---
 ## Codename and API Levels
 
 | Codename | API Level |
@@ -62,3 +66,18 @@ FutureBuilder(
 | Q | 29 |
 | R | 30 |
 | S | 31 |
+
+---
+
+## Contributing
+
+If you have read up till here, then 🎉🎉🎉. There are couple of ways in which you can contribute to
+the growing community of `sdk_int.dart`.
+
+- Pick up any issue marked with ["good first issue"](https://github.com/TamilKannanCV-personal/sdk_int/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- Propose any feature, enhancement
+- Report a bug
+- Fix a bug
+- Write and improve some **documentation**. Documentation is super critical and its importance
+  cannot be overstated!
+- Send in a Pull Request 😊
