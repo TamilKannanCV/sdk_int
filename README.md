@@ -2,8 +2,8 @@
 
 This plugin lets you get the Current SDK version for android. It includes all version codes to compare with.
 
-![Pub Version](https://img.shields.io/pub/v/insta_extractor) 
-![License](https://img.shields.io/github/license/TamilKannanCV-personal/insta_extractor)
+![Pub Version](https://img.shields.io/pub/v/sdk_int) 
+![License](https://img.shields.io/github/license/TamilKannanCV-personal/sdk_int)
 
 ### Implementation
 `SDKInt.currentSDKVersion` is a `Future<int>` which returns the current SDK version of the OS
